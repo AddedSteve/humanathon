@@ -16,7 +16,39 @@ div {
 
 h1 {
 	font-size: 40px;
-	padding: 20px 0px;
+	padding: 20px 0px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 30px 10px;
 }
 
 table {
@@ -83,7 +115,7 @@ tbody {
 }
 
 @media screen and (max-width: 500px) {
-    table {
+    table, li {
     	font-size: 200%;
     }
 }
@@ -96,7 +128,7 @@ tbody {
   		font-size: 100px;
   	}
 
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 }
@@ -111,7 +143,7 @@ tbody {
   		font-size: 100px;
   	}
 
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 }
@@ -126,7 +158,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -143,7 +175,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-	table {
+	table, li {
     	font-size: 200%;
     }
 }
@@ -158,7 +190,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 }
@@ -173,7 +205,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -190,7 +222,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -206,7 +238,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -222,7 +254,7 @@ tbody {
   		font-size: 100px;
   	}
   	 
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -239,7 +271,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -255,7 +287,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
@@ -271,7 +303,7 @@ tbody {
   		font-size: 100px;
   	}
   	
-  	table {
+  	table, li {
     	font-size: 200%;
     }
 
